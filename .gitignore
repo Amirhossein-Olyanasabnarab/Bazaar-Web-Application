@@ -1,0 +1,51 @@
+# --- Node / Express ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+logs.txt
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage / testing
+coverage/
+.nyc_output/
+
+# Build / production
+dist/
+build/
+tmp/
+temp/
+
+# --- WebStorm / JetBrains IDE ---
+.idea/
+*.iml
+out/
+
+# --- OS files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnail cache files
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~

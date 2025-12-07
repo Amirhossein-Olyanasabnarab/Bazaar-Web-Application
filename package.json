@@ -1,0 +1,32 @@
+{
+  "name": "bazaar",
+  "version": "1.0.0",
+  "description": "This is a web application for selling and buying our goods.",
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "ejs",
+    "etc."
+  ],
+  "homepage": "https://github.com/Amirhossein-Olyanasabnarab/Bazaar-Web-Application#readme",
+  "bugs": {
+    "url": "https://github.com/Amirhossein-Olyanasabnarab/Bazaar-Web-Application/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amirhossein-Olyanasabnarab/Bazaar-Web-Application.git"
+  },
+  "license": "ISC",
+  "author": "Amirhossein Olyanasab Narab",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1"
+  }
+}
