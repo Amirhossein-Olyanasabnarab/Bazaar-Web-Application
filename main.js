@@ -1,9 +1,11 @@
 const express = require('express');
+const dotenv = require('dotenv');
+dotenv.config();
 function main(){
     const app = express();
-
-    app.listen(3000, () => {
-        console.log(`Server is running on http://localhost:3000`);
+    const PORT = process.env.PORT;
+    app.listen(PORT, () => {
+        console.log(`Server is running on http://localhost:${PORT}`);
     });
 };
 
