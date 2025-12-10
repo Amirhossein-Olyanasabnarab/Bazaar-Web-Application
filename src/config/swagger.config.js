@@ -11,7 +11,7 @@ function swaggerConfig(app){
                 description: "Node.js, Express.js, MongoDB"
             },
         },
-        apis: []
+        apis: [process.cwd() + "/src/module/**/*.swagger.js"]
     });
     const swagger = swaggerUi.setup(swaggerDocument, {});
     app.use("/swagger", swaggerUi.serve, swagger);
